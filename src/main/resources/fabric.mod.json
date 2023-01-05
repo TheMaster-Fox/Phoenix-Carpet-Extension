@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "phoenixext",
+  "version": "${version}",
+
+  "name": "Phoenix Carpet Extension",
+  "description": "Carpet Extension for the Phoenix Network",
+  "authors": [
+    "VrikkaDuck",
+    "TheMaster_Fox"
+  ],
+  "contact": {
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/phoenixext/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "phoenixext.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.2",
+    "java": ">=17",
+    "carpet": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "parent": "carpet"
+    }
+  }
+}
