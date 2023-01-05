@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 
-@Mixin(PickaxeItem.class)
+@Mixin(MiningToolItem.class)
 public class PickaxeItemMixin{
 
     @Inject(at = @At(value = "HEAD"),method = "getMiningSpeedMultiplier", cancellable = true)
