@@ -4,8 +4,10 @@
   "package": "net.phoenix.rules.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "CarpetServerMixin",
-    "PickaxeItemMixin"
+    "CrashReportMixin",
+    "MinecraftServerMixin",
+    "PickaxeItemMixin",
+    "SpawnCommandMixin"
   ],
   "injectors": {
     "defaultRequire": 1

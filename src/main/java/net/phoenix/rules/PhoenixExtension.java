@@ -2,9 +2,11 @@ package net.phoenix.rules;
 
 import carpet.CarpetExtension;
 import carpet.CarpetServer;
-
 import com.google.common.reflect.TypeToken;
 import com.google.gson.GsonBuilder;
+import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
+import net.phoenix.rules.Commands.BotSubscriptionCommand;
+import net.phoenix.rules.Configs.Config;
 import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;
@@ -23,6 +25,11 @@ public class PhoenixExtension implements CarpetExtension {
     @Override
     public void onGameStarted() {
         CarpetServer.settingsManager.parseSettingsClass(CarpetSettings.class);
+
+        Config.LoadConfigs();
+       // BotSubscriptionHelper.init();
+
+        CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> BotSubscriptionCommand.register(dispatcher));
     }
 
     @Override

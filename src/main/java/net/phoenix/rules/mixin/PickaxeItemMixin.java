@@ -1,16 +1,14 @@
 package net.phoenix.rules.mixin;
 
+import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.Material;
-import net.minecraft.item.*;
-import net.minecraft.tag.BlockTags;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.item.MiningToolItem;
 import net.phoenix.rules.CarpetSettings;
 import org.spongepowered.asm.mixin.Mixin;
-import net.minecraft.tag.TagKey;
-import net.minecraft.block.BlockState;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 
