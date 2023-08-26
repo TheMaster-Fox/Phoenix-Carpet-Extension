@@ -296,5 +296,6 @@ Block-entities will correctly display their state in the F3 menu (or MiniHUD). [
 [^mini]: Taken from [Minitweaks](https://github.com/manyrandomthings/minitweaks) by [manyrandomthings](https://github.com/manyrandomthings)  
 [^ess]: Taken from [Essential Addons](https://github.com/Super-Santa/EssentialAddons)  
 [^tot]: Taken from [Toto's Carpet Tweaks](https://github.com/totorewa/totos-carpet-tweaks)  
+[^shadow]: Takken from [Carpet Shadow](https://github.com/mattymatty97/carpet-shadow)
 [^plu]: Taken from [Plusls Carpet Addition](https://github.com/Nyan-Work/plusls-carpet-addition) which is [Nyan-Work](https://github.com/Nyan-Work)'s maintained [port](https://github.com/plusls/plusls-carpet-addition)  
 [^ext]: Taken from [Carpet Extra](https://github.com/gnembon/carpet-extra)
