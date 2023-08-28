@@ -246,15 +246,6 @@ Teleports players back to where they were when they changed to spectator
 - Categories: `TOTOS`, `SURVIVAL`  
 [^tot]
 
-## stackableShulkersInPlayerInventories
-Shulker Boxes always stack in player inventories
-
-* Type: `Boolean`
-* Default value: `false`
-* Allowed options: `true`, `false`
-* Categories: `ESSENTIAL`, `EXPERIMENTAL`, `FEATURE`  
-[^ess]
-
 ## updateSuppressionSimulator
 
 Activator / Powered Rails on Redstone Ore simulate update suppressors
@@ -277,19 +268,23 @@ Better Sculk Sensor outlined by [Purplers](https://www.youtube.com/watch?v=LpKZS
 
 # Game Changes (NOT configurable)
 
-## Better Box Stacking Behavior
-When Carpet's `stackEmptyShulkerBoxes` is set to true empty shulker boxes can stack in a player's inventory or hand, but not stack in other inventories, such as chests or hoppers. [^plu]
-
-## Data Syncing to Client
-Sync entity and blockEntity data from server to client.  
-Requires [Masa Gadget](https://github.com/plusls/MasaGadget)
-[^plu]
-
-## Accurate Block Placement
-Allows for alternative placement packets to be fulfilled by the server. [^ext]
-
 ## Correct Block-State Tags
 Block-entities will correctly display their state in the F3 menu (or MiniHUD). [^ext]
+
+## Accurate Block Placement
+Allows for alternative block placement packets to be fulfilled by the server. Primarily for Tweakeroo's flexible and accurateBlockPlacement. [^ext]
+
+## Better Box Stacking Behavior
+When Carpet's `stackEmptyShulkerBoxes` is set to true, empty Shulker Boxes will stack in a player's inventory, but not in block entity inventories. [^ess]
+
+## Data Syncing to Client
+Sync entity and blockEntity data from server to client.[^plu]  
+Requires [Phoenix Client](https://github.com/TheMaster-Fox/Phoenix-Client)
+
+## Ignore Miscellaneous in Mobcap
+The `Misc` mob group (set of mobs that do not spawn naturally) will always be ignored in local and global mobcap displays.  
+Affects logger and `/spawn mobcaps` command [^tis]
+
 
 [^tis]: Taken from [Carpet TIS Additon](https://github.com/TISUnion/Carpet-TIS-Addition)  
 [^fix]: Taken from [Carpet-Fixes](https://github.com/fxmorin/carpet-fixes)  
