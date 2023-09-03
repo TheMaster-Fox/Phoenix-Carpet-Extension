@@ -154,7 +154,7 @@ Using an Echo Shard on a Sculk Shrieker allows it to summon Wardens
 - Categories: `MINITWEAKS`  
 [^mini]
 
-## foxSculkSensor [WIP]
+## foxSculkSensor
 Better Sculk Sensor outlined by [Purplers](https://www.youtube.com/watch?v=LpKZS_8IZsw) and tweaked further by TheMaster_Fox
 - Type: `boolean`
 - Default value: `false`
@@ -193,7 +193,7 @@ If set to off, no light update can be scheduled or executed
 - Categories: `TIS`, `CREATIVE`, `EXPERIMENTAL`  
 [^tis]
 
-## movableBells [WIP]
+## movableBells
 Makes Bells movable
 
 - Type: `boolean`
@@ -234,7 +234,7 @@ XP orbs of all sizes always combine when in close proximity and XP obsorption co
 - Type: `boolean`
 - Default value: `false`
 - Suggested options: `false`, `true`
-- Categories: `PHOENIX`
+- Categories: `PHOENIX`  
 Taken from [Clumps](https://github.com/jaredlll08/Clumps)
 
 ## reintroduceUpdateSuppression
@@ -270,7 +270,7 @@ Right before a powered Activator / Powered Rail on a Redstone Ore setting its po
 - Categories: `TIS`, `CREATIVE`  
 [^tis]
 
-## vrikkaDuckSculkSensor [WIP]
+## vrikkaDuckSculkSensor
 Better Sculk Sensor outlined by [Purplers](https://www.youtube.com/watch?v=LpKZS_8IZsw) and tweaked further by [VrikkaDuck](https://github.com/VrikkaDev)
 
 - Type: `boolean`
