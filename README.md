@@ -1,7 +1,7 @@
 # Phoenix Carpet Extension
 
 Carpet extension for Phoenix SMP, a 1.19.2 technical Minecraft server.  
-<iframe src="https://discordapp.com/widget?id=802017282728525895&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+[DISCORD LINK WIP]
 
 # Rules (Configurable)
 
