@@ -1,9 +1,12 @@
 # Phoenix Carpet Extension
 
 Carpet extension for Phoenix SMP, a 1.19.2 technical Minecraft server.  
-[DISCORD LINK WIP]
+### Discord Server:  
+[![Phoenix Discord](https://discordapp.com/api/guilds/802017282728525895/widget.png?style=banner3)](https://discord.gg/invite/wg2w7nvJEV)
 
-# Rules (Configurable)
+# Rules (Configurable)  
+[[NEW] porformantXpOrbs](https://github.com/TheMaster-Fox/Phoenix-Carpet-Extension/README.md#performantxporbs)  
+[[NEW] Improved Litematica Pasting](https://github.com/TheMaster-Fox/Phoenix-Carpet-Extension/README.md#improved-litematica-pasting)
 
 ## antiSpamDisabled
 Disable spamming checks on players (ex: chat message cooldown & creative item drop cooldown)
@@ -206,15 +209,6 @@ Makes Reinforced Deepslate movable
 - Suggested options: `false`, `true`
 - Categories: `PHOENIX`, `FEATURE`
 
-## observerNoDetection
-Stops all observer detection
-
-- Type: `boolean`
-- Default value: `false`
-- Suggested options: `false`, `true`
-- Categories: `TIS`, `CREATIVE`  
-[^tis]
-
 ## noRepairCost
 
 Removes additional cost for using an item in an anvil multiple times
@@ -224,6 +218,24 @@ Removes additional cost for using an item in an anvil multiple times
 - Suggested options: `false`, `true`
 - Categories: `MINITWEAKS`  
 [^mini]
+
+## observerNoDetection
+Stops all observer detection
+
+- Type: `boolean`
+- Default value: `false`
+- Suggested options: `false`, `true`
+- Categories: `TIS`, `CREATIVE`  
+[^tis]
+
+## performantXpOrbs
+XP orbs of all sizes always combine when in close proximity and XP obsorption cooldown is removed
+
+- Type: `boolean`
+- Default value: `false`
+- Suggested options: `false`, `true`
+- Categories: `PHOENIX`
+Taken from [Clumps](https://github.com/jaredlll08/Clumps)
 
 ## reintroduceUpdateSuppression
 Re-introduces update suppression, item shadowing, provides insta-wire fixes, and disables update suppression crashes  
@@ -284,6 +296,10 @@ Requires [Phoenix Client](https://github.com/TheMaster-Fox/Phoenix-Client)
 ## Ignore Miscellaneous in Mobcap
 The `Misc` mob group (set of mobs that do not spawn naturally) will always be ignored in local and global mobcap displays.  
 Affects logger and `/spawn mobcaps` command [^tis]
+
+## Improved Litematica Pasting
+When pasting a schematic with [Litematica](https://www.curseforge.com/minecraft/mc-mods/litematica) on a server, block entities with modified NBT data will be accurately pasted.  
+Implemented from [Litematica Server Paster](https://github.com/Fallen-Breath/litematica-server-paster) by [Fallen-Breath](https://github.com/Fallen-Breath)
 
 
 [^tis]: Taken from [Carpet TIS Additon](https://github.com/TISUnion/Carpet-TIS-Addition)  
