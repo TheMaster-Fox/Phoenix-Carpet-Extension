@@ -5,8 +5,8 @@ Carpet extension for Phoenix SMP, a 1.19.2 technical Minecraft server.
 [![Phoenix Discord](https://discordapp.com/api/guilds/802017282728525895/widget.png?style=banner3)](https://discord.gg/invite/wg2w7nvJEV)
 
 # Rules (Configurable)  
-[[NEW] porformantXpOrbs](https://github.com/TheMaster-Fox/Phoenix-Carpet-Extension/tree/1.19.2#performantxporbs)  
-[[NEW] Improved Litematica Pasting](https://github.com/TheMaster-Fox/Phoenix-Carpet-Extension/tree/1.19.2#improved-litematica-pasting)
+[[NEW] porformantXpOrbs](#performantxporbs)  
+[[NEW] Improved Litematica Pasting](#improved-litematica-pasting)
 
 ## antiSpamDisabled
 Disable spamming checks on players (ex: chat message cooldown & creative item drop cooldown)
