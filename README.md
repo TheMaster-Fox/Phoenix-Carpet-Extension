@@ -1,12 +1,9 @@
 # Phoenix Carpet Extension
 
-Carpet extension for Phoenix SMP, a 1.19.2 technical Minecraft server.  
+Carpet Extension for the 1.20.1 Phoenix technical Minecraft server.  
+This is primarily a compilation of the few rules we use from various other extensions.
 ### Discord Server:  
 [![Phoenix Discord](https://discordapp.com/api/guilds/802017282728525895/widget.png?style=banner3)](https://discord.gg/invite/wg2w7nvJEV)
-
-# Rules (Configurable)  
-[[NEW] porformantXpOrbs](#performantxporbs)  
-[[NEW] Improved Litematica Pasting](#improved-litematica-pasting)
 
 ## antiSpamDisabled
 Disable spamming checks on players (ex: chat message cooldown & creative item drop cooldown)
@@ -26,36 +23,19 @@ Fixes bees pathfinding to water, not leaving hives/nests, and getting stuck in t
 - Categories: `CARPET-FIXES`  
 [^fix]
 
-## betterVoidBehavior
-Fixes allays getting stuck in the void and Loyalty tridents not returning when thrown into the void
+## betterAnvils
 
-- Type: `boolean`
-- Default value: `false`
-- Suggested options: `false`, `true`
-- Categories: `CARPET-FIXES`  
-[^fix]
-
-## boatsTakeFallDamageFix
-Fixes boats breaking and giving fall damage under certain circumstances
-
-- Type: `boolean`
-- Default value: `false`
-- Suggested options: `false`, `true`
-- Categories: `CARPET-FIXES`  
-[^fix]
-
-## bowAndArmorStacking
-Allows mending-infinity bows and all protection armor pieces
+Removes Anvil XP cap and increases character limit to 100
 
 - Type: `boolean`
 - Default value: `false`
 - Suggested options: `false`, `true`
 - Categories: `MINITWEAKS`  
-[^mini]
+  [^mini]
 
 ## commandDimensions
 Allows the player to teleport in between dimensions with `/dimtp`  
-Unless specified, it will teleport you to 0 ~ 0
+Travel to and from The End will teleport you to 0 ~ 0, OW to NE travel teleports to equivalent coords unless specified. 
 
 * Type: `boolean`
 * Default value: `false`
@@ -80,15 +60,6 @@ Enables `/lifetime` command to track entity lifetime
 - Suggested options: `false`, `true`
 - Categories: `TIS`, `COMMAND`
 [^tis]
-
-## commandSwitchDimensions
-Allow players to teleport between the Nether and Overworld at equivalent coords
-
-* Type: `String`
-* Default value: `false`
-* Allowed options: `true`, `false`
-* Categories: `ESSENTIAL`, `COMMAND`, `CREATIVE`  
-[^ess]
 
 ## commandRaid
 Enables `/raid` command for raid listing and tracking
@@ -126,15 +97,6 @@ Fixes End Crystals not exploding when damaged from explosions (End Crystal chain
 - Categories: `CARPET-FIXES`  
 [^fix]
 
-## depthStriderSlowsRiptideFix
-Fixes Depth Strider slowing down riptide, causing Riptide to be slower in water and messing up the launching
-
-- Type: `boolean`
-- Default value: `false`
-- Suggested options: `false`, `true`
-- Categories: `CARPET-FIXES`  
-[^fix]
-
 ## dyeableShulkers
 Shulkers can be dyed  
 Color can be reset using a Water Bottle
@@ -145,24 +107,8 @@ Color can be reset using a Water Bottle
 - Categories: `MINITWEAKS`  
 [^mini]
 
-## echoShardsEnableShriekers
-Using an Echo Shard on a Sculk Shrieker allows it to summon Wardens
-
-- Type: `boolean`
-- Default value: `false`
-- Suggested options: `false`, `true`
-- Categories: `MINITWEAKS`  
-[^mini]
-
-## foxSculkSensor
-Better Sculk Sensor outlined by [Purplers](https://www.youtube.com/watch?v=LpKZS_8IZsw) and tweaked further by TheMaster_Fox
-- Type: `boolean`
-- Default value: `false`
-- Suggested options: `false`, `true`
-- Categories: `PHOENIX`, `FEATURE`
-
 ## globalVillagerDiscounts
-Shares the villager cure discounts amongst all players
+Shares the villager cure discounts amongst all players and applies discounts even if disconnected
 
 - Type: `boolean`
 - Default value: `false`
@@ -171,7 +117,7 @@ Shares the villager cure discounts amongst all players
 [^tot]
 
 ## instamineHardStones
-Makes Deepslate and End Stone instaminable with Haste II, Efficiency V Netherite Pickaxe
+Makes Deepslate and/or End Stone instaminable with Haste II, Efficiency V Netherite Pickaxe
 
 - Type: `boolean`
 - Default value: `off`
@@ -193,14 +139,6 @@ If set to off, no light update can be scheduled or executed
 - Categories: `TIS`, `CREATIVE`, `EXPERIMENTAL`  
 [^tis]
 
-## movableBells
-Makes Bells movable
-
-- Type: `boolean`
-- Default value: `false`
-- Suggested options: `false`, `true`
-- Categories: `PHOENIX`, `EXPIRIMENTAL`
-
 ## movableReinforcedDeeplsate
 Makes Reinforced Deepslate movable
 
@@ -208,16 +146,6 @@ Makes Reinforced Deepslate movable
 - Default value: `false`
 - Suggested options: `false`, `true`
 - Categories: `PHOENIX`, `FEATURE`
-
-## noRepairCost
-
-Removes additional cost for using an item in an anvil multiple times
-
-- Type: `boolean`
-- Default value: `false`
-- Suggested options: `false`, `true`
-- Categories: `MINITWEAKS`  
-[^mini]
 
 ## observerNoDetection
 Stops all observer detection
@@ -227,15 +155,6 @@ Stops all observer detection
 - Suggested options: `false`, `true`
 - Categories: `TIS`, `CREATIVE`  
 [^tis]
-
-## performantXpOrbs
-XP orbs of all sizes always combine when in close proximity and XP obsorption cooldown is removed
-
-- Type: `boolean`
-- Default value: `false`
-- Suggested options: `false`, `true`
-- Categories: `PHOENIX`  
-Taken from [Clumps](https://github.com/jaredlll08/Clumps)
 
 ## reintroduceUpdateSuppression
 Re-introduces update suppression, item shadowing, provides insta-wire fixes, and disables update suppression crashes  
@@ -270,32 +189,27 @@ Right before a powered Activator / Powered Rail on a Redstone Ore setting its po
 - Categories: `TIS`, `CREATIVE`  
 [^tis]
 
-## vrikkaDuckSculkSensor
-Better Sculk Sensor outlined by [Purplers](https://www.youtube.com/watch?v=LpKZS_8IZsw) and tweaked further by [VrikkaDuck](https://github.com/VrikkaDev)
-
-- Type: `boolean`
-- Default value: `false`
-- Suggested options: `false`, `true`
-- Categories: `PHOENIX`, `FEATURE`
-
 # Game Changes (NOT configurable)
 
 ## Correct Block-State Tags
-Block-entities will correctly display their state in the F3 menu (or MiniHUD). [^ext]
+Block-entities will accurately display their state in the F3 menu (or MiniHUD). [^ext]
 
 ## Accurate Block Placement
-Allows for alternative block placement packets to be fulfilled by the server. Primarily for Tweakeroo's flexible and accurateBlockPlacement. [^ext]
+Allows for alternative block placement packets to be fulfilled by the server. For Tweakeroo's flexible and accurateBlockPlacement. [^ext]
 
 ## Better Box Stacking Behavior
 When Carpet's `stackEmptyShulkerBoxes` is set to true, empty Shulker Boxes will stack in a player's inventory, but not in block entity inventories. [^ess]
 
 ## Data Syncing to Client
-Sync entity and blockEntity data from server to client.[^plu]  
+Sync entity and blockEntity NBT from server to client.[^plu]  
 Requires [Phoenix Client](https://github.com/TheMaster-Fox/Phoenix-Client)
 
 ## Ignore Miscellaneous in Mobcap
 The `Misc` mob group (set of mobs that do not spawn naturally) will always be ignored in local and global mobcap displays.  
 Affects logger and `/spawn mobcaps` command [^tis]
+
+## Improved Entities through Portals Performance
+Reverts change made for 1.19.3 that degraded performance of entities going through Nether Portals
 
 ## Improved Litematica Pasting
 When pasting a schematic with [Litematica](https://www.curseforge.com/minecraft/mc-mods/litematica) on a server, block entities with modified NBT data will be accurately pasted.  
